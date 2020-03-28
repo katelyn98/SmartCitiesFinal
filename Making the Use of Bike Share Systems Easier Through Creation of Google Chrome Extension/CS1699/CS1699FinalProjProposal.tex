@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%2345678901234567890123456789012345678901234567890123456789012345678901234567890
+%        1         2         3         4         5         6         7         8
+
+\documentclass[letterpaper, 12 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 12pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+% See the \addtolength command later in the file to balance the column lengths
+% on the last page of the document
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% The following packages can be found on http:\\www.ctan.org
+%\usepackage{graphics} % for pdf, bitmapped graphics files
+%\usepackage{epsfig} % for postscript graphics files
+%\usepackage{mathptmx} % assumes new font selection scheme installed
+%\usepackage{times} % assumes new font selection scheme installed
+%\usepackage{amsmath} % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installed
+
+\title{\LARGE \bf
+Making The Use of Bike Share Systems Easier Through Creation of Google Chrome Extension
+}
+
+%\author{ \parbox{3 in}{\centering Narshion Ngao*
+%         \thanks{*Use the $\backslash$thanks command to put information here}\\
+%         Msc. Computer Systems - 2018\\
+%         Jomo Kenyatta University of Agriculture \& Technology \\
+%       
+%}}
+
+\author{Katelyn Morrison \\% <-this % stops a space
+Final Project Proposal\\
+University of Pittsburgh School of Computing \& Information \\
+Course: CS 1699 - The Future of Cities: Ethics, Values, and History in the 'Smart City' 
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+
+The City of Pittsburgh has an approximate population of 301,000 as of February 2020 [1]. The city of Pittsburgh offers a variety of public transportation methods including buses, two inclines, and an underground transit line along with 'on-demand' transit options. This final project proposal will be assessing the ease of access to smart mobility, specifically the HealthyRide Bike Sharing system, through commonly used app interfaces such as Google Maps by creating an a proof of concept Google Chrome extension on the availability of HealthyRide Bikes at nearby stations. The project proposal which is being used to present proof of concept will be set up as follows:
+\begin{enumerate}
+  \item A brief literature review related to bike sharing systems.
+  \item A list of various stakeholders and their involvement. Analysis of targeted audience.
+  \item Proposal of a Google Chrome Extension to be implemented within Google Maps web interface.
+\end{enumerate}
+The direct following is an overview of the literature and articles reporting on bike share systems in cities along with an overview of infrastructure and the commuting population in Pittsburgh, PA.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Bike Sharing Systems in Big Cities Bring Success for City Planners and Commuters}
+\subsection{The Growing Presence of E-Bikes in Cities Across the U.S.}
+	Lime is just one of the few E-Bike companies out there providing services to cities for ‘on-demand’ transportation. Lime launched their first fleet of pedal bikes back in 2017 in North Carolina [2]. Such E-Bike sharing systems like the ones Lime offers are categorized as dock-less bike sharing systems because a user does not need to return them to a designated station when their ride is complete [2]. In Lime’s one-year report, they provide several case studies that cities have participated in with Lime [2]. The case studies reveal some surprising data: the cumulative carbon dioxide emissions saved from usage of Lime's products (E-bikes, E-scooters, pedal bikes) overall was 5,250,000 pounds [2]. One particular city that has adopted Lime´s E-Bike population is St. Louis, Missouri. St. Louis, Missouri has an approximate population of 302, 900 people as of February 2020 [4]. When St. Louis was adopting the dock-free Lime bike share system, "... local officials required Lime to deploy a significant percentage of bikes in undeserved neighborhoods" [2]. In the Lime One-Year Report, they reported over 60,000 unique riders [2]. Another city that welcomed the E-bike sharing system is Park City, Utah with a population of approximately 8,500 people [17]. 
+	\newline
+	There are several companies besides Lime offering 'on-demand' bike sharing systems now in cities with success such as Uber, Lyft, and CitiBikes. Smart mobility systems and infrastructure like bike sharing systems naturally present themselves in conjunction with technology. However, bike sharing systems that require personal ownership of technology or the use of smartphones excludes a portion of a city's lower income population. Lime states in their one-year report that they have partnered with a company to allow those who don’t have bank accounts or smartphones to still be able to interact with their infrastructure through other forms of payment or technology [2]. Providing reliable transportation to the lower income population gives hope for the ability to secure reliable jobs which is a good benefactor to the overall city economy. 
+	\newline
+	Not only are these E-Bikes accessible to lower income populations (shown by Lime's structure), but valuable GPS data of the most traveled routes is also available through the bike sharing system. Cities like Boston have taken advantage of this to help make data-informed decisions when planning city streets for better biking infrastructure and biker safety [3]. 
+
+\subsection{The City of Pittsburgh's 'On-Demand' Transportation and the Commuting Population }
+	In 2015, Pittsburgh welcomed the HealthyRide Bike Sharing System and saw a little over 30,000 rides after its introduction within a span of one year [7]. One interesting thing I noticed from searching on the HealthyRide website for station locations is the lack of stations in the Hill District [8]. The Hill District is a portion of Pittsburgh that is experiencing economic decline [12]. The only way to participate in the HealthyRide bike sharing system in Pittsburgh is to download the NextBike mobile app. Naturally only targeting a specific population of commuters in Pittsburgh: those who own an Apple of Android device that has access to data and those who don't live in or need to go to the Hill District.
+	\newline 
+	An article in the Pittsburgh Post-Gazette provides an interesting analysis about how Pittsburgh commuters are using the HealtyhRide bikes...or aren't for that matter [8]. It identified that 60\% of trips started at higher elevations than the finishing location and it was very uncommon for a bike trip to start at a low elevation and finish at a higher elevation [8]. Ezgi Eren confirms this trend in her research paper on factors that affect bike-sharing demand [9]. Eren also points out how the road and safety infrastructure plays a major role with the number of bike riders on the streets. Spatial factors such as the bike docking station's distance from, "...educational centers, commercial centers, and public transit facilities..." evidently explain higher ridership levels [16]. Another paper, by University of Pittsburgh Professor Konstantinos Pelechrinis, sets out to identify the impact of demand for parking spots within areas that had HealthyRide bike stations constructed [13]. The results confirm a decrease in parking demand which shows promising trends amongst the general commuting population in Pittsburgh [13]. 
+	\newline
+	As Pittsburgh introduced the HealthyRide Bike Share system, the mayor signed off a city-wide policy in 2015 for the creation of "Complete Streets" which are streets that are multi-modal providing space for vehicles, bicycles, and pedestrians [10]. Even though there is infrastructure set for biker safety with the construction of complete streets several places throughout Pittsburgh, the ridership with the HealthyRide Bikes continues to drop [8]. After reading the article about Sweden clearing their sidewalks before their streets to prioritize and encourage a certain population of commuter before another, it got me thinking why the City of Pittsburgh is not prioritizing constructing infrastructure that prioritizes active, zero carbon commuting [11]. As an active commuter biking on the streets and trails of Pittsburgh for my daily needs like my job or groceries, I have grown passionate about the biking infrastructure and my safety on the roads. 
+\section{The Stakeholders, Targeted Users, and Their Involvement}
+\subsection{City of Pittsburgh Transportation Committee and City Council}
+ I include the city transportation committee because they make decisions that set the transportation culture within the city. If their drafts plan for and expect more cars on the road, then naturally more cars will fill that void. I also include them because they need to make data-informed decisions when it comes to road and bike safety infrastructure. Including them will help them better understand to what extent the creation of this proof of concept Chrome Extension increases ridership. 
+
+\subsection{Local Businesses and Investors}
+Local businesses and investors are vital stakeholder to this project because they will have to work together with the city council to provide accurate data that doesn't violate any privacy policies. They will also have to provide stable infrastructure for accessible APIs and data sets for analysis to be made by researchers, developers, and city council members. Investors, current and prospective, are also important as this could help better identify the population using the bike sharing system so they can properly invest spending in the right areas to encourage increased ridership. The following specific businesses I would like to include amongst the investors and stakeholders:
+\begin{enumerate}
+\item HealthyRide - NextBike
+\item Lime
+\item BikePGH
+\item Uber \& Lyft
+\item Google Pittsburgh
+\end{enumerate}
+
+\subsubsection{HealthyRide \& NextBike}
+Their API for live station and bike availability as well as their openness to potentially providing new or different bike sharing infrastructure based on results.
+\subsubsection{Lime}
+As potential investors in providing new infrastructure for Pittsburgh, I would like to keep them in mind and also make the city aware of their successes in other cities that are of similar and larger size. 
+\subsubsection{BikePGH}
+Advertising the new chrome extension and providing how-to videos on how to use it. BikePGH is a continuous sponsor of trainings and events to increase the biking atmosphere in the city. Their support is evidently necessary for success in changing the culture. 
+\subsubsection{Uber \& Lyft}
+These two companies are also potential investors for providing infrastructure such as the Lyft E-Bikes and the Uber Jump bikes. Open data for both of these bike sharing systems are hard to find. Turns out Los Angeles is disgruntled about the lack of accessible data and privacy policies with the Jump bikes [14].
+\subsubsection{Google Pittsburgh}
+Having the support and collaboration with Google Pittsburgh and their map team would allow me to learn a lot about the process of how my proof of concept can be implemented. It will allow me to bring up certain conversations with them how impactful their app features are on transportation culture and trends. 
+
+\subsection{City of Pittsburgh Commuters, Visitors, and Tourists}
+The commuters, visitors, and tourists of Pittsburgh play a vital role in this proof of concept as they will be the ones interacting with it the most. DataUSA.io maps out census data from the US Census Bureau including pertinent data on transportation and commuting trends within Pittsburgh compared to the rest of the United States. The average commute time in 2018 for employees in Pittsburgh, PA was reported at 22.2 minutes which is lower than the US worker average at 25.7 minutes [15]. The reported most common method of travel is 54.5\% while public transit and walking make up 28.8\% [15]. Unfortunately, biking makes up only 1.74\% [15]. One of the reasons of living in a city is so you are closer to your job, your friends, civilization, etc., but the US Census Bureau reported that approximately 86\% of households within Pittsburgh, PA own at least 1 car [15]. I guess they don't view living in the city meaning you are closer to your job or civilization...or maybe they don't have rapid reliable transit that they feel comfortable ditching the car.  
+\newline
+
+\section{Proof of Concept Google Maps Chrome Extension: Plans and Desired Results}
+\subsection{Functionality}
+The functionality of this Google Chrome Extension is to be presented within the Google Maps Web Interface. When a user searches for directions and specifically wants to identify directions for biking, the Google Maps web interface will be adjusted to include the regular directions if you were biking with your own personal bike and then an option next to that to show directions of getting to your location if you were to take a HealthyRide Bike and the nearest station location of an available HealthyRide bike. It will present the total distance traveled, the total time the trip will take, and the cost since HealthyRide bikes cost a certain amount of money per minute of riding. This will all be calculated when showing you transportation routes and options. 
+
+\subsection{Implementation/Development Plan}
+The implementation of this proof of concept will be down through creating a Chrome Extension on Google. I will be looking at similar Chrome Extensions such as a carbon emissions Chrome Extension that is open source to further understand how to implement my idea in the Google Map web interface [18]. In order to provide accurate, real-time data of available bikes at the HealthyRide Bike Stations, I will be writing a Python Script to web scrap JSON data from the HealthyRide API [19].
+\newline
+
+
+\subsection{Deliverables/User Engagement}
+The deliverables will include a completed Google Chrome Extension providing the proof of concept of this to be implemented on the actual Google Maps application. I would like to do a study to amongst college students to see to what extent this proof of concept sways their decision on taking the bus, walking, driving (Uber, Lyft), or using a HealthyRide Bike. This would include showing a route to a user on Google Maps Web Interface without the Chrome Extension installed and asking them to say which mode of transportation they would take based off of the visible options. Then install the Chrome Extension and again ask the user which mode of transportation they would take now after they have the feasibility of seeing the HealthyRide availability and station locations compared against the other options. Another deliverable will include an analysis about if the city of Pittsburgh has considered using Lime E-Bikes and what steps would need to be taken to include this proof of concept into the Google Maps App for Pittsburgh. 
+
+
+\addtolength{\textheight}{-14cm}   % This command serves to balance the column lengths
+                                  % on the last page of the document manually. It shortens
+                                  % the textheight of the last page by a suitable amount.
+                                  % This command does not take effect until the next page
+                                  % so it should come on the page before the last. Make
+                                  % sure that you do not shorten the textheight too much.
+
+
+
+\begin{thebibliography}{99}
+
+\bibitem{c1} "World Population Review: Pittsburgh, PA," [Online]. Available: http://worldpopulationreview.com/us-cities/pittsburgh-population/ [Accessed: Feb. 25, 2020].
+\bibitem{c2} "Lime Official One Year Report,” Lime, 2018
+\bibitem{c3} Lime, "Lime Data is Helping Metro Boston Plan For Safer Bike Infrastructure," \textit{2nd Street: Lime}, November 2019. [Online]. Available: https://www.li.me/second-street/lime-data-helping-metro-boston-plan-safer-bike-infrastructure?fbclid=IwAR33xIdoaSpbqxNwtcTUz3CTLxZ
+\newline qIqQN7c\_fVpN-exMe5R0\_54rZdhqPQqk/. [Accessed: Feb. 24, 2020].
+\bibitem{c4} "World Population Review: St. Louis, MO," [Online]. Available: http://worldpopulationreview.com/us-cities/st-louis-population/ [Accessed: Feb. 25, 2020].
+\bibitem{c5} DowntownPittsburgh, "Getting Around Downtown Pittsburgh," [Online]. Available: https://downtownpittsburgh.com/visit/getting-here/ [Accessed: Feb. 25, 2020].
+\bibitem{c6} W. Gregory, "BikePGH Report On Pedestrian \& Bicycling Safety In Pittsburgh 2011-2015," BikePGH, Pittsburgh, Nov. 2016
+\bibitem{c7} C. Huffaker, "Pittsbrugh's Healthy Ride not so Healthy, but Changes are on the way," \textit{Pittsburgh Post-Gazette}, July 17, 2017. [Online]. Available: https://www.post-gazette.com/local/city/2017/07/17/healthy-ride-pittsburgh-bike-rentals-bikeshare-programs-pa/stories/201707170010. [Accessed Feb. 24, 2020].
+\bibitem{c8} HealthyRide, "HealthyRide Overview," [Online]. Available: https://healthyridepgh.com/overview/ [Accessed: Feb. 24, 2020]. 
+\bibitem{c9} Ezgi Eren and Volkan Emre Uz, "A Review on Bike-Sharing: The Factors Affecting Bike-Sharing Demand," \textit{Elsevier}, Sustainable Cities and Society. Oct. 2019, [Online]. Available: https://doi.org/10.1016/j.scs.2019.101882/. [Accessed: Feb. 24, 2020].
+\bibitem{c10} "Complete Streets: Pittsburgh, PA," City of Pittsburgh, [Online]. Available: https://pittsburghpa.gov/domi/complete-streets. [Accessed: Feb. 17, 2020].
+\bibitem{c11} A. Schmidt, "Why Sweden Clears Snow-Covered Walkways Before Roads," \textit{StreetsBlogUSA}, Jan. 2018, [Online]. Available: https://usa.streetsblog.org/2018/01/24/why-sweden-clears-walkways-before-roads/. [Accessed: Feb. 24, 2020].
+\bibitem{c12} "Hill District - Pittsburgh," \textit{Wikipedia}, [Online]. Available: https://en.wikipedia.org/wiki/Hill\_District\_%28Pittsburgh%29
+\bibitem{c13} Pelechrinis, Konstantinos and Li, Beibei and Qian, Sean, Bike Sharing and Car Trips in the City: The Case of Healthy Ride Pittsburgh (October 17, 2016). [Online]. Available: https://ssrn.com/abstract=2853543 or http://dx.doi.org/10.2139/ssrn.2853543 [Accessed: Feb. 25, 2020].
+\bibitem{c14} L. Nelson, "L.A. Suspends Uber's Permit to Rent Out Electric Scooters and Bikes," \textit{Los Angeles Times}, Nov. 4, 2019. [Online]. Available: https://www.latimes.com/california/story/2019-11-04/los-angeles-suspends-uber-jump-scooters-bikes-data-privacy. [Accessed Feb. 24, 2020].
+\bibitem{c15} "DataUSA - Pittsburgh, PA," [Online]. Available: https://datausa.io/profile/geo/pittsburgh-pa/about [Accessed: Feb. 26, 2020].
+\bibitem{c16} He, Yi and Liu, Zhaocai and Song, Ziqi and Sze, N.N., Factors Influencing ELectric Bike Share Ridership: Analysis of Park City, Utah (June 11, 2019). [Online]. Available: https://www.researchgate.net/publication/332012668 [Accessed: Feb. 26, 2020].
+\bibitem{c17}  "World Population Review: Park City, UT," [Online]. Available: http://worldpopulationreview.com/us-cities/park-city-ut-population/ [Accessed: Feb. 25, 2020].
+\bibitem{c18} "Carbon Footprint for Google," [Online]. Available: https://chrome.google.com/webstore/detail/carbon-footprint-for-goog/ednfpjleaanokkjcgljbmamhlbkddcgh. [Accessed: Feb. 26, 2020].
+\bibitem{c19} "HealthyRide \& NextBike API," [Online]. Available: https://api.nextbike.net/maps/nextbike-live.xml?&city=254
+
+
+\end{thebibliography}
+
+
+
+
+\end{document}
