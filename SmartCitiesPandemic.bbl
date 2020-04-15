@@ -13,9 +13,30 @@ Could your cellphone data be used to enforce stay-at-home orders?
 \newblock How to use smart city technology to measure social distancing.
 \newblock {\em Tech Xplore - Technology and Engineering news\/} (04 2020).
 
+\bibitem{hawkins_2020}
+{\sc Hawkins, A.~J.}
+\newblock How cities are fighting coronavirus on public transportation, Mar
+  2020.
+
+\bibitem{levine_2020}
+{\sc Levine, B.}
+\newblock Data-driven research aims to solve first/last-mile.
+\newblock {\em Government Technology State \& Local Articles - e.Republic\/}
+  (Mar 2020).
+
 \bibitem{DefiningSmartCities}
 {\sc Mohanty, S.}
 \newblock Everything you wanted to know about smart cities.
 \newblock {\em IEEE Consumer Electronics Magazine 5\/} (07 2016), 60--70.
+
+\bibitem{rangwala_2018}
+{\sc Rangwala, H.}
+\newblock Socio-technical systems.
+\newblock {\em GeeksforGeeks\/} (Dec 2018).
+
+\bibitem{walker_2020}
+{\sc Walker, J.}
+\newblock In a pandemic, we're all 'transit dependent'.
+\newblock {\em CityLab\/} (Apr 2020).
 
 \end{thebibliography}
