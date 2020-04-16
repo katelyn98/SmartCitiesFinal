@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex SmartCitiesPandemic"] 1586981339 "SmartCitiesPandemic.aux" "SmartCitiesPandemic.bbl" "SmartCitiesPandemic" 1586983543
+["bibtex SmartCitiesPandemic"] 1587003206 "SmartCitiesPandemic.aux" "SmartCitiesPandemic.bbl" "SmartCitiesPandemic" 1587003920
   "/usr/local/texlive/2019/texmf-dist/bibtex/bst/base/acm.bst" 1292289607 21064 c61a48664f3c347ce7f73c1a6a530506 ""
-  "SmartCitiesPandemic.aux" 1586983543 439 882b72083b152a9dae74cdc6021fa710 "pdflatex"
-  "ref.bib" 1586981325 2963 ce268f934d53570c4c9bd6e8b0aa8233 ""
+  "SmartCitiesPandemic.aux" 1587003920 779 61096f35e62d7addc157907fbb1178ae "pdflatex"
+  "ref.bib" 1587003205 4156 936692d908c2c3a97c730554f9f853c2 ""
   (generated)
-  "SmartCitiesPandemic.bbl"
   "SmartCitiesPandemic.blg"
-["pdflatex"] 1586983542 "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.tex" "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.pdf" "SmartCitiesPandemic" 1586983543
-  "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.aux" 1586983543 439 882b72083b152a9dae74cdc6021fa710 ""
-  "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.tex" 1586983541 4290 e7c746a0b6f025f22c885e8c44873f56 ""
+  "SmartCitiesPandemic.bbl"
+["pdflatex"] 1587003919 "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.tex" "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.pdf" "SmartCitiesPandemic" 1587003920
+  "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.aux" 1587003920 779 61096f35e62d7addc157907fbb1178ae ""
+  "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.tex" 1587003918 8976 4447a2a4c5be00408814c5b74ec3548f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -27,6 +27,10 @@
   "/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty" 1463608860 6797 90b7f83b0ad46826bc16058b1e3d48df ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls" 1544567569 19933 3097d1b31d3c45dc957096f554529032 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo" 1544567569 8305 6a682ae291edd56e2d7accbf95eca451 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1429144587 7068 06f8d141725d114847527a66439066b6 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def" 1525283624 19672 064123762b65f5f6167cd01f4155a8c2 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty" 1525283624 61418 e956203a0a8d7a811e2100c0ecfdfcac ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1534713891 43865 f83cc2fa3767abdb988c7d2cd17c02bf ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty" 1525727744 41645 0653033a985e06c69a2a9cea9a95e31a ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty" 1523134385 2591 6404d0c7d28505fb38ce0d86c2e28ae7 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty" 1324344192 22913 a27d7908fc6f0385466454a966a316eb ""
@@ -35,9 +39,9 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "SmartCitiesPandemic.aux" 1586983543 439 882b72083b152a9dae74cdc6021fa710 "pdflatex"
-  "SmartCitiesPandemic.bbl" 1586981339 1223 ada20f72c9333e5decc29341219dd0e7 "bibtex SmartCitiesPandemic"
-  "SmartCitiesPandemic.tex" 1586983541 4290 e7c746a0b6f025f22c885e8c44873f56 ""
+  "SmartCitiesPandemic.aux" 1587003920 779 61096f35e62d7addc157907fbb1178ae "pdflatex"
+  "SmartCitiesPandemic.bbl" 1587003207 1986 3e7902720c07bd6c8cbb1e1f365c7da1 "bibtex SmartCitiesPandemic"
+  "SmartCitiesPandemic.tex" 1587003918 8976 4447a2a4c5be00408814c5b74ec3548f ""
   (generated)
   "SmartCitiesPandemic.log"
   "/Users/katelynmorrison/Desktop/Spring ONLINE/School/Smart Cities/SmartCitiesFinal/SmartCitiesFinal/SmartCitiesPandemic.log"

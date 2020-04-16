@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{GotTP}
 Got-toilet-paper.org.
@@ -8,6 +8,12 @@ Got-toilet-paper.org.
 Could your cellphone data be used to enforce stay-at-home orders?
 \newblock {\em Gazette\/} (Apr 2020).
 
+\bibitem{chandler_2020}
+{\sc Chandler, S.}
+\newblock How smart cities are protecting against coronavirus but threatening
+  privacy.
+\newblock {\em Forbes\/} (Apr 2020).
+
 \bibitem{das_james_2020}
 {\sc Das, R., and James, P.}
 \newblock How to use smart city technology to measure social distancing.
@@ -15,8 +21,20 @@ Could your cellphone data be used to enforce stay-at-home orders?
 
 \bibitem{hawkins_2020}
 {\sc Hawkins, A.~J.}
-\newblock How cities are fighting coronavirus on public transportation, Mar
-  2020.
+\newblock How cities are fighting coronavirus on public transportation.
+\newblock {\em The Verge\/} (Mar 2020).
+
+\bibitem{kaplan_2020}
+{\sc Kaplan, D.}
+\newblock Researcher says data shows allegheny county social distancing; county
+  says more must be done.
+\newblock {\em WTAE\/} (Mar 2020).
+
+\bibitem{kim_denyer_2020}
+{\sc Kim, M.~J., and Denyer, S.}
+\newblock A 'travel log' of the times in south korea: Mapping the movements of
+  coronavirus carriers.
+\newblock {\em The Washington Post\/} (Mar 2020).
 
 \bibitem{levine_2020}
 {\sc Levine, B.}
@@ -33,6 +51,12 @@ Could your cellphone data be used to enforce stay-at-home orders?
 {\sc Rangwala, H.}
 \newblock Socio-technical systems.
 \newblock {\em GeeksforGeeks\/} (Dec 2018).
+
+\bibitem{shenker_2020}
+{\sc Shenker, J.}
+\newblock Cities after coronavirus: how covid-19 could radically alter urban
+  life.
+\newblock {\em The Guardian\/} (Mar 2020).
 
 \bibitem{walker_2020}
 {\sc Walker, J.}

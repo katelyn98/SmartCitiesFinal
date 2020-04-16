@@ -1,13 +1,14 @@
 \documentclass[12pt]{article}
+\usepackage{csquotes}
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \usepackage{indentfirst}
 
 \doublespacing
 \title{
-    How Attributes of a Smart City are Scaffolding Tomorrow's Culture
+    How Data, Models, and Maps are Fueling Today and Predicting Tomorrow
 }
-\author{Katelyn C Morrison}
+\author{Katelyn C. Morrison}
 
 \begin{document}
 \maketitle
@@ -24,43 +25,55 @@ health care, governance, education, and technology are now being put to the test
 Novel research methods using sensors, deep learning algorithms, and open source datasets are continuing to push the status quo. 
 For example, models can now predict
 when toilet paper will run out and at which stores \cite{GotTP}. Other models can analyze and determine
-social distancing standards during pandemics \cite{das_james_2020}. Through geotags and informatics,
+social distancing standards during pandemics \cite{das_james_2020}. Through location data,
 models can present data trends on how well neighborhoods are aligning to social distancing policies \cite{gazette_2020}.
 Where does it cross the line? When is it categorized as invading privacy? Or does this present a
 stronger case for the need of open source datasets populated through crowdsourcing techniques? 
-Through the analysis of socio-technical systems, location data analysis, and sensor technology, 
-it will be made clear how tomorrow's
-cultural norms are being scaffolded by today's researchers and to what extent individuals 
-privacy is invaded.
-\subsection*{Socio-Technical Systems and Mobility}
+Through the analysis of socio-technical systems, datasets, and sensor technology, 
+it will be made clear how today's privacy is being sacrificed and how tomorrow is relient on maps and models.
+\subsection*{Socio-Technical Systems and Smart Cities}
 A smart city's socio-technical system is crafted in a way such that citizens, software, hardware, data, and policies are all connected \cite{rangwala_2018}.
 In light of the Coronavirus Pandemic, cities are discovering and taking advantage of their
 socio-technical systems in hopes to mitigate and avoid the spread of the virus. "Mobility systems are socio-technical systems...", Debra Lam points out in an article about
 a project at Georgia Tech's Socially Aware Mobility Lab (SAM) \cite{levine_2020}. Not only is it important to make transportation easily accessible and sustainable,
-but it is now vital to create a transportation infrastructure that promotes social distancing and well-being. Walker brings up a good point that, "...
+but it is now vital to create a transportation infrastructure that promotes social distancing and well-being. However, Walker brings up a good point that, "...
 if we all drive cars out of a feeling of personal safety, we'll quickly restore the congestion that strangle our cities" \cite{walker_2020}. How are local governments
-harnessing their city's soci-technical system to face the challenge of sucha  large decline in their ridership? From my extensive research on the topic, it remains unclear.
+harnessing their city's soci-technical system to face the challenge of such a large decline in their ridership? From my extensive research on the topic, it remains unclear.
 Several transit agencies have created cleaning crews to perform deep cleaning and some cities have even given the drivers permission to skip stops if their vehicle is going 
-to exceed social distancing standards \cite{hawkins_2020}. This might open up the doors for Uber and Lyft to pave the way in offering on-demand mobility as a public transit 
-option. This disruption is leaving people questioning how 
-the transportation infrastructure and systems can change and adapt to create the transportation system of the future. 
+to exceed social distancing standards \cite{hawkins_2020}. This might open up the doors for new research to pave the way in offering on-demand multimodal transit as a public transit 
+option. Mobility isn't the only attribute in a smart city that is linked to a socio-technical system. Another attribute is the \textit{Internet of Things}, including sensing technologies, 
+which bring light on the power that technical researchers and politicians have over cities and citizens. Several maps and models have been created and 
+released to present a multifaceted digest of the impacts and trends of the pandemic in various cities. But at what point are these models going to far? 
 
-Another component of socio-technical systems, data 
-and policies, brings light on the power that technical researchers have over cities and its citizens. Several maps and models have been created and 
-released to present mobility trends since the spread of the virus accelerated. 
+\subsection*{'Your Location is Showing'...}
+"Uhm...excuse me. Your location is showing". "My location is showing what to who?". "Everything to everyone...". This is an example conversation I hear myself saying to a friend as they show me a meme or video on their phone. It is miniscule, but 
+every phone shows you when your location services are activated. Maybe to some, the little arrow is another useless icon appearing at the top of their phone, but it has more power
+than one may expect. Through an overview of the various models and technologies that have been released since January 2020, I will highlight how your location is supplying a wealth of 
+knowledge to researchers, and how the government is gaining an unhealthy amount of power off of these models. When understanding and analyzing these maps released, many of them are arguing
+where personal healthcare and personal privacy are lost. The argument strongly presents two sides, "...where some people perceive good intentions, others see Big Brother" \cite{kim_denyer_2020}. 
+Aside from George Orwell's book \textit{1984} detailing an alternative reality, Edward Snowden is warning the public to not take these developments lightly.
+\begin{quotation}
+They already know what you're looking at on the internet, they already know where your phone is moving, now they 
+know what your heart rate is. What happens when they start to intermix these and apply artificial intelligence to them? \cite{chandler_2020}.
+\end{quotation} 
 
-
-For example, The Newcastle University Urban
-Observatory developed a model backed by convolutional neural networks to measure the distance between pedestrians at a once 
-busy intersection. 
-
-
-\subsection*{'Your Location is Showing'}
-
-
-\subsection*{Neighborhood Anaylsis \& Urbanization}
+There is a
+WashingtonPost article that covers a map, created by a college student, that is generated through government released data on the location history of coronvirus patients. This map is generated through 
+credit card transactions, GPS phone tracking, personal interviews, and surveillance video footage \cite{kim_denyer_2020}. The map is published on a public website for the citizens of Seoul, South Korea to be advised what locations around town
+may be infected with coronavirus particles in the air or on infrastructure. This map lead other govenrments to produce similar models along with showing age, gender, and even occupation of coronavirus patients \cite{kim_denyer_2020}. 
+This brings me to raise the question: what variables are significant in identifying which locations are safe or unsafe to travel? I highly doubt releasing the age, gender, and occupation of a patient will help citizens determine which locations
+are safe or unsafe to travel. Not only are travel history maps being released while breaching privacy for the good of society, but drone and robots are being used to enforce social distancing policies to pedestrians \cite{kim_denyer_2020, shenker_2020}. Now,
+I'm not saying that these maps should not exist, however, I think that the developers need to better understand the use of the data and identify which variables are truly significant. Too much data is overwhelming; too little data says nothing; the personal data
+allows people to know too much. Aside from mapping travel history and physical hardware out on the streets playing the role of \textit{Big Brother}, researchers are tapping into street cameras to analyze \textit{how well} pedestrians are maintaing six feet from
+each other \cite{das_james_2020}. Through the use of convolutional neural networks, models are able to identify human pedestrians at a street intersection and then measure the distance between them. I see no problem with this use of data, but the article was more technical in terms of 
+presenting the research problem and methodology, so I may be missing an infringement on privacy. One last development that caught my eye was data analysis being done by a professor at the University of Pittsburgh. With the help of \textit{Google's public data sets on
+the location of your phone}, his research is able to present how Alleghney count is doing with the new social distancing regulations \cite{gazette_2020, kaplan_2020}. And yes, you have given your phone permission (whether that was explicitly or implicity) permission to allow Google to 
+collect this data. I didn't first notice it until Google sent my my year in review through locations and I was appalled. 
 
 \subsection*{Conclusion}
+Datasets, maps, and models along with sensors, hardware, and policies are the driving force of tomorrow's life. The information is out there now as Snowden said and nontechnical people are becoming more aware of the powers and potential of machine learning and artificial intelligence. 
+Navigating the landscape of these technologies and socio-technical systems will remain important in the coming months as new terrains are charted. It also is evident that these issues are multifaceted and interdisciplinary; the solutions need to be generated from a diverse group from a 
+holistic point of view. As a researcher and aspiring data scientist, it is important to fully understand what impact you want your model to have on tomorrow and how its generated map will impact today. 
 
 \bibliographystyle{acm}
 \bibliography{ref}
